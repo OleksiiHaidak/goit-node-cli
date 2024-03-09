@@ -40,5 +40,5 @@ export const addContact = async (name, email, phone) => {
     };
     contacts.push(newContact);
     await updateContacts(contacts);
-    return contacts;
+    return newContact;
 }
